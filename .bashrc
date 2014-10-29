@@ -1,15 +1,16 @@
 # enable color support of ls and also add handy aliases
-source ~/.rvm/scripts/rvm
 alias ls='ls -hGFp'
 alias dir='ls -hGFp'
 alias vdir='ls -hGFp'
 alias g='git'
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl" 
+
 complete -o default -o nospace -F _git g
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export DBUSER=root
 export DBPASS=
 export PGHOST=localhost
-eval "$(gh alias -s)"
+#eval "$(gh alias -s)"
 #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 PATH=$PATH:$HOME/.rvm/bin:/opt/local/bin:/opt/local/sbin:/Users/dancingbudha/.rvm/gems/ruby-2.0.0-p195/bin:/Users/dancingbudha/.rvm/gems/ruby-2.0.0-p195@global/bin:/Users/dancingbudha/.rvm/rubies/ruby-2.0.0-p195/bin:/Users/dancingbudha/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/dancingbudha/.rvm/bin # Add RVM to PATH for scripting
 
