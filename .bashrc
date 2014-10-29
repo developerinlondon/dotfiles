@@ -11,19 +11,8 @@ export DBPASS=
 export PGHOST=localhost
 eval "$(gh alias -s)"
 #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-PATH=$HOME/gocode/bin:/usr/local/Cellar/postgresql/9.3.4/bin:$PATH:$HOME/.rvm/bin:/opt/local/bin:/opt/local/sbin:/Users/dancingbudha/.rvm/gems/ruby-2.0.0-p195/bin:/Users/dancingbudha/.rvm/gems/ruby-2.0.0-p195@global/bin:/Users/dancingbudha/.rvm/rubies/ruby-2.0.0-p195/bin:/Users/dancingbudha/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/dancingbudha/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/bin:/opt/local/bin:/opt/local/sbin:/Users/dancingbudha/.rvm/gems/ruby-2.0.0-p195/bin:/Users/dancingbudha/.rvm/gems/ruby-2.0.0-p195@global/bin:/Users/dancingbudha/.rvm/rubies/ruby-2.0.0-p195/bin:/Users/dancingbudha/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/dancingbudha/.rvm/bin # Add RVM to PATH for scripting
 
-###############################################################################
-# fleet configuration
-###############################################################################
-
-#export FLEETCTL_TUNNEL=ec2-54-208-238-22.compute-1.amazonaws.com
-export FLEETCTL_TUNNEL=ec2-54-208-238-187.compute-1.amazonaws.com
-###############################################################################
-# Vagrant configuration
-###############################################################################
-
-export FORWARD_DOCKER_PORTS='true'
 
 ###############################################################################
 # IDENTIFICATION OF LOCAL HOST: CHANGE TO YOUR COMPUTER NAME
