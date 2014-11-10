@@ -24,6 +24,7 @@ brew cask install skype
 brew cask install keepassx
 brew cask install sublime-text
 brew cask install daisydisk
+brew cask install packer
 
 # install postgres + redis
 brew install postgres
@@ -31,7 +32,8 @@ brew install python
 brew install zsh
 brew intall nmap
 brew install nodejs
-
+brew install hub
+brew install gh
 
 # install awscli
 pip install awscli
