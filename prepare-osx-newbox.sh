@@ -25,6 +25,13 @@ brew cask install keepassx
 brew cask install sublime-text
 brew cask install daisydisk
 brew cask install packer
+brew cask install viber
+brew cask install kindle-previewer
+brew cask install pokerstars
+brew cask install limechat
+brew cask install adobe-reader
+brew cask install pycharm-ce
+brew cask install filezilla
 
 # install postgres + redis
 brew install postgres
@@ -34,8 +41,11 @@ brew intall nmap
 brew install nodejs
 brew install hub
 brew install gh
+brew install ack
 
 # install awscli
 pip install awscli
 pip install boto
+pip install fabric
 
+npm install gulp -gulp
