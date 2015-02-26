@@ -5,10 +5,14 @@ rvm install 2.1.2
 # install brew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# install cpanmin.us
+\curl -L http://cpanmin.us  | perl - App::cpanminus --sudo
+
 # install brew cask
 brew tap caskroom/cask
 brew install brew-cask
 
+brew install autojump
 
 # install virtualbox + vagrant 
 brew cask install virtualbox
@@ -42,6 +46,7 @@ brew install nodejs
 brew install hub
 brew install gh
 brew install ack
+brew install links
 
 # install awscli
 pip install awscli
