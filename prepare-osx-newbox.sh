@@ -14,6 +14,8 @@ brew install brew-cask
 
 brew install autojump
 
+brew install htop
+
 # install virtualbox + vagrant 
 brew cask install virtualbox
 brew cask install vagrant
@@ -36,6 +38,9 @@ brew cask install limechat
 brew cask install adobe-reader
 brew cask install pycharm-ce
 brew cask install filezilla
+brew cask install evernote
+brew cask install slack
+brew cask install hubic
 
 # install postgres + redis
 brew install postgres
@@ -47,6 +52,7 @@ brew install hub
 brew install gh
 brew install ack
 brew install links
+brew install tree
 
 # install awscli
 pip install awscli
