@@ -16,7 +16,7 @@ brew install autojump
 
 brew install htop
 
-# install virtualbox + vagrant 
+# install virtualbox + vagrant
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-bar
@@ -41,12 +41,15 @@ brew cask install filezilla
 brew cask install evernote
 brew cask install slack
 brew cask install hubic
+#brew install pass
+#echo "source /usr/local/etc/bash_completion.d/password-store" >> ~/.bashrc
+brew cask install dropbox
 
 # install postgres + redis
 brew install postgres
 brew install python
 brew install zsh
-brew intall nmap
+brew install nmap
 brew install nodejs
 brew install hub
 brew install gh
@@ -55,6 +58,7 @@ brew install links
 brew install tree
 
 # install awscli
+brew install pip
 pip install awscli
 pip install boto
 pip install fabric
