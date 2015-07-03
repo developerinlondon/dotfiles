@@ -44,6 +44,7 @@ brew cask install hubic
 #brew install pass
 #echo "source /usr/local/etc/bash_completion.d/password-store" >> ~/.bashrc
 brew cask install dropbox
+brew cask install disk-inventory-x
 
 # install postgres + redis
 brew install postgres
