@@ -49,6 +49,7 @@ brew cask install dropbox
 brew cask install disk-inventory-x
 
 brew install ansible
+gem install thor parseconfig
 
 # install postgres + redis
 brew install postgres
