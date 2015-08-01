@@ -67,3 +67,8 @@ pip install boto
 pip install fabric
 
 npm install gulp -gulp
+
+# install docker
+pip install -U docker-compose
+brew cask install kitematic
+brew cask install docker-machine
