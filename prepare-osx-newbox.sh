@@ -48,6 +48,8 @@ brew cask install hubic
 brew cask install dropbox
 brew cask install disk-inventory-x
 
+brew install ansible
+
 # install postgres + redis
 brew install postgres
 brew install python
