@@ -22,6 +22,8 @@ brew cask install vagrant
 brew cask install vagrant-bar
 brew cask install vagrant-manager
 
+brew cask install google-chrome
+
 # install java + misc
 brew cask install java
 brew cask install hipchat
