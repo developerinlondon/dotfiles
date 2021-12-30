@@ -1,6 +1,6 @@
 # install rvm
 \curl -sSL https://get.rvm.io | bash
-rvm install 2.1.2
+rvm install 2.6.8
 
 # install brew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
