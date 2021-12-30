@@ -33,7 +33,7 @@ brew install --cask 1password-cli
 brew install --cask amazon-workspaces
 brew install --cask ringcentral
 brew install wrk-trello
-
+brew install --cask istat-menus
 brew install terraform
 brew install autojump
 
