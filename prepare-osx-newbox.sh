@@ -8,10 +8,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # install cpanmin.us
 \curl -L http://cpanmin.us  | perl - App::cpanminus --sudo
 
-# install brew cask
-brew tap homebrew/cask
-brew install brew-cask
-
 # new tools
 brew install --cask visual-studio-code
 brew install --cask microsoft-edge
@@ -41,34 +37,34 @@ brew install autojump
 brew install htop
 
 # install virtualbox + vagrant
-# brew cask install virtualbox
-# brew cask install vagrant
-# brew cask install vagrant-bar
-# brew cask install vagrant-manager
+# brew install --cask virtualbox
+# brew install --cask vagrant
+# brew install --cask vagrant-bar
+# brew install --cask vagrant-manager
 
-brew cask install google-chrome
+brew install --cask google-chrome
 
 # install java + misc
-brew cask install java
-brew cask install caffeine
-brew cask install skype
-brew cask install keepassx
-brew cask install sublime-text
-brew cask install daisydisk
-brew cask install packer
-brew cask install viber
-brew cask install kindle-previewer
-brew cask install pokerstars
-brew cask install limechat
-brew cask install pycharm-ce
-brew cask install filezilla
-brew cask install evernote
-brew cask install slack
-brew cask install hubic
+brew install --cask java
+brew install --cask caffeine
+brew install --cask skype
+brew install --cask keepassx
+brew install --cask sublime-text
+brew install --cask daisydisk
+brew install --cask packer
+brew install --cask viber
+brew install --cask kindle-previewer
+brew install --cask pokerstars
+brew install --cask limechat
+brew install --cask pycharm-ce
+brew install --cask filezilla
+brew install --cask evernote
+brew install --cask slack
+brew install --cask hubic
 #brew install pass
 #echo "source /usr/local/etc/bash_completion.d/password-store" >> ~/.bashrc
-brew cask install dropbox
-brew cask install disk-inventory-x
+brew install --cask dropbox
+brew install --cask disk-inventory-x
 
 brew install ansible
 gem install thor parseconfig
