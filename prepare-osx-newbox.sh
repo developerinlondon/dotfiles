@@ -85,6 +85,7 @@ brew install ack
 brew install links
 brew install tree
 
+brew install --cask google-cloud-sdk
 # install awscli
 brew install pip
 pip install awscli
