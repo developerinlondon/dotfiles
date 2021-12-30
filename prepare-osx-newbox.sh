@@ -12,21 +12,44 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew tap caskroom/cask
 brew install brew-cask
 
+# new tools
+brew install --cask visual-studio-code
+brew install --cask microsoft-edge
+brew install --cask microsoft-teams
+brew install --cask microsoft-outlook
+brew install --cask authy
+brew install --cask tradingview
+brew install --cask discord
+brew install --cask telegram-desktop
+brew install --cask google-drive
+brew install --cask synology-note-station-client
+brew install --cask google-chat
+brew install --cask zoom
+brew install --cask notion
+brew install --cask adobe-acrobat-pro
+brew install --cask adobe-creative-cloud
+brew install --cask loom
+brew install --cask whatsapp
+brew install --cask nordvpn
+brew install --cask vyprvpn
+brew install --cask 1password
+brew install --cask 1password-cli
+brew install --cask amazon-workspaces
+
 brew install autojump
 
 brew install htop
 
 # install virtualbox + vagrant
-brew cask install virtualbox
-brew cask install vagrant
-brew cask install vagrant-bar
-brew cask install vagrant-manager
+# brew cask install virtualbox
+# brew cask install vagrant
+# brew cask install vagrant-bar
+# brew cask install vagrant-manager
 
 brew cask install google-chrome
 
 # install java + misc
 brew cask install java
-brew cask install hipchat
 brew cask install caffeine
 brew cask install skype
 brew cask install keepassx
@@ -37,7 +60,6 @@ brew cask install viber
 brew cask install kindle-previewer
 brew cask install pokerstars
 brew cask install limechat
-brew cask install adobe-reader
 brew cask install pycharm-ce
 brew cask install filezilla
 brew cask install evernote
@@ -72,6 +94,7 @@ pip install fabric
 npm install gulp -gulp
 
 # install docker
-pip install -U docker-compose
-brew cask install kitematic
-brew cask install docker-machine
+brew install docker
+brew install docker-compose
+brew install kubernetes-cli
+
