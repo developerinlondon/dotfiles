@@ -9,7 +9,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 \curl -L http://cpanmin.us  | perl - App::cpanminus --sudo
 
 # install brew cask
-brew tap caskroom/cask
+brew tap homebrew/cask
 brew install brew-cask
 
 # new tools
