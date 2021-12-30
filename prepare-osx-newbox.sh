@@ -43,6 +43,7 @@ brew install htop
 # brew install --cask vagrant-manager
 
 brew install --cask google-chrome
+brew install --cask brave-browser
 
 # install java + misc
 brew install --cask java
