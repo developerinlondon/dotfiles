@@ -31,6 +31,7 @@ brew install --cask vyprvpn
 brew install --cask 1password
 brew install --cask 1password-cli
 brew install --cask amazon-workspaces
+brew install --cask ringcentral
 
 brew install terraform
 brew install autojump
